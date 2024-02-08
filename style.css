@@ -134,11 +134,52 @@ button:disabled {
     }
 
     .container__conteudo {
-        display: block;
-        position: inherit;
+       display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+
     }
 
+
     .container__informacoes {
-        padding: 1rem
+        padding: 1rem;
     }
+    
+}
+@media only screen and (max-width: 767px){
+    
+    h1 {
+        font-size: 50px;
+    }
+
+    .container__botao {
+        font-size: 16px;
+    }
+
+
+    .texto__paragrafo {
+        font-size: 24px;
+    }
+
+    .container__imagem-pessoa {
+        display: none;
+    }
+
+    .container__conteudo {
+        display: block;
+        position: inherit;
+
+    }
+
+
+    .container__informacoes {
+        padding: 1rem;
+    }
+    
 }
