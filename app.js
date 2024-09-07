@@ -44,7 +44,7 @@ exibirMensagemInicial()
 //A função abaixo define o que deve ocorrer ao apertar o botão "Novo Jogo"
 //Respectivamente: atualiza o valor do numeroSecreto, gerando um novo; reinicia a contagem de
 //tentativas; limpa o campo de resposta(input); retorna p/ mensagem de tela inicial e 
-//desabilita novamente o botão "Novo Jogo".
+// desabilita novamente o botão "Novo Jogo".
 
     function reiniciar() {
         numeroSecreto = gerarNumeroAleatorio();
